@@ -10,7 +10,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="corbody">
     <script src="script.js">
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -32,10 +32,10 @@
       <a href="index.html"><img src="logo.png"  width="300" height="100"></a>
       <nav class="meu-nav">
         <ul>
-         <li><a class="cresce"  href="Laudo.html">Laudo de Avaliação</a></li>
-         <li><a class="cresce"   href="ChecarValor.html">Quanto Vale?</a></li>
-         <li><a class="cresce"  href="Fale.html">Fale Conosco</a></li>
-         <li><a class="cresce"  href="Localização.html">Localização </a></li>
+         <li><a href="Laudo.html">Laudo de Avaliação</a></li>
+         <li><a href="ChecarValor.html">Quanto Vale?</a></li>
+         <li><a href="Fale.html">Fale Conosco</a></li>
+         <li><a href="Localização.html">Localização </a></li>
          <li><a class="cresce"  href="login.html">Login</a></li>
          <li><a class="cresce"  href="cadastra-se.html">Cadastre-se </a></li>
         </ul>
@@ -48,34 +48,126 @@
     -->
     <div class= "inicio flexbox centralizar-v centralizar-h">
 
-      <form class="form1"> 
-        <div><select>
-          <option value="0">Select car:</option>
-          <option value="1">Audi</option>
-          <option value="2">BMW</option>
-        </select>
-        <select>
-          <option value="0">Select car:</option>
-          <option value="1">Audi</option>
-          <option value="2">BMW</option>
-        </select>
-        <button>Buscar</button>
+      <div class= quadrado >
+        <form class="formquadrado col py-3 px-md-4"> 
+          <div><select>
+           <option value="0">Qual tipo?</option>
+           <option value="1">0</option>
+           <option value="2">1</option>
+          </select>
+         <select>
+            <option value="0">Onde:</option>
+            <option value="1">0</option>
+           <option value="2">1</option>
+         </select>
+         <button class="botao rounded-pill">Buscar</button>
         </form>
-      </form>
-
+        
+      </div>  
+      <div class="divteste col py-3 px-md-4">
+        <button class="but1 border-top rounded-bottom float-sm-left">Comprar</button>
+        <button class="but2 border-top rounded-bottom float-sm-left ml-3">Alugar</button>
+      </div>
+    
     </div>
     </div>
     
-    <main class="main">   
-      
+    <main class="main ">   
+      <div class="container-fluid">
+        <div id="carouselExample" class="carouselPrograms carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-md-4  active">
+                   <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 1" class="thumb">
+                          <img class="img-fluid mx-auto d-block" src="casa1.png" alt="slide 1">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                   <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 3" class="thumb">
+                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                   <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 4" class="thumb">
+                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                    <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 5" class="thumb">
+                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                  <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 6" class="thumb">
+                          <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                   <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 7" class="thumb">
+                          <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                   <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 8" class="thumb">
+                          <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                 <div class="carousel-item col-md-4  ">
+                    <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 2" class="thumb">
+                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
+                        </a>
+                      </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>                   
     </main>
     <div class = "footer-falso">
-        <h3 class="h31">AlugueMG / AlugueMG Agencia de Viagens LTDA. Rua Canaã,
-        </h3>
+        <h4 class="h41">AlugueMG / AlugueMG Agencia de Viagens LTDA. Rua Canaã,
+        </h4>
         <br>
-        <h3 class="h32">
+        <h4 class="h42">
             1923 - Sala 01 - Mezanino - Chácara Por do Sol - Uberlândia – MG - CEP: 04715-103 CNPJ 13.943.123/0001-50
-        </h3>
+        </h4>
     </div>
     <footer>
       <div class = "voltar">

@@ -32,7 +32,7 @@
   }
   .logo ul li{
     display: inline;
-    margin: 0px 90px;
+    margin: 0px 45px;
   }
   .logo ul li a{
     text-decoration: none;
@@ -75,11 +75,11 @@ align-self: flex-end;
   background-color: #FF0000;
   bottom: 0px;
 }
-.footer-falso .h31{
+.footer-falso .h41{
   padding-top: 40px;
   text-align: center;
 } 
-.footer-falso .h32{
+.footer-falso .h42{
   padding-top: 0px;
   text-align: center;
 } 
@@ -101,6 +101,118 @@ align-self: flex-end;
 .centralizar-v{
   justify-content: center;
 }
-body{
+.corbody{
   background-color: #FFC3A1;
+}
+.quadrado{
+  width: 400px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  border-width: 2px;
+}
+select {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.363);
+}
+
+.botao{
+  background-color: #FF9900;
+}
+
+select:hover,
+select:focus,
+select:active,
+select:checked {
+  color: red;
+}
+
+select option {
+  color: #333;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+.divteste botton{
+}
+
+.formquadrado{
+  background-color: white;
+  border-radius: 10px;
+}
+.cresce{
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+}
+.but1{
+    background-color: #1385EE;
+    color: rgb(255, 255, 255);
+}
+.but2{
+    color: #0016DD;
+}
+@media (min-width: 768px) {
+
+  /* show 3 items */
+  .carouselPrograms .carousel-inner .active,
+  .carouselPrograms .carousel-inner .active + .carousel-item,
+  .carouselPrograms .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+  }
+
+  .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+  .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+  }
+
+  .carouselPrograms .carousel-inner .carousel-item-next,
+  .carouselPrograms .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+  }
+
+  .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+
+  /* left or forward direction */
+  .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item,
+  .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carouselPrograms .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+
+  /* right or prev direction */
+  .carouselPrograms .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
 }
