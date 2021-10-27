@@ -73,8 +73,7 @@ align-self: flex-end;
   width: 100%;
   height: 200px;
   background-color: #FF0000;
-  position:absolute;
-  bottom:0;
+  bottom: 0px;
 }
 .footer-falso .h31{
   padding-top: 40px;
@@ -101,4 +100,7 @@ align-self: flex-end;
 
 .centralizar-v{
   justify-content: center;
+}
+body{
+  background-color: #FFC3A1;
 }
