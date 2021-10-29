@@ -55,119 +55,98 @@
            <option value="1">0</option>
            <option value="2">1</option>
           </select>
-         <select>
-            <option value="0">Onde:</option>
-            <option value="1">0</option>
-           <option value="2">1</option>
-         </select>
-         <button class="botao rounded-pill">Buscar</button>
-        </form>
+           <input type="text" id="fname" name="Onde" placeholder="Onde?">
         
+          <button type="button" class="botao btn btn-outline-warning">Buscar</button>
+        </form>
       </div>  
       <div class="divteste col py-3 px-md-4">
-        <button class="but1 border-top rounded-bottom float-sm-left">Comprar</button>
-        <button class="but2 border-top rounded-bottom float-sm-left ml-3">Alugar</button>
+        <button class="but1 rounded-bottom float-sm-left">Comprar</button>
+        <button class="but2 rounded-bottom float-sm-left ml-3">Alugar</button>
       </div>
     
     </div>
     </div>
-    
-    <main class="main ">   
-      <div class="container-fluid">
-        <div id="carouselExample" class="carouselPrograms carousel slide" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner row w-100 mx-auto" role="listbox">
-                <div class="carousel-item col-md-4  active">
-                   <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 1" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="casa1.png" alt="slide 1">
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4 ">
-                   <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 3" class="thumb">
-                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4 ">
-                   <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 4" class="thumb">
-                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4 ">
-                    <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 5" class="thumb">
-                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4 ">
-                  <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 6" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4 ">
-                   <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 7" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4 ">
-                   <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 8" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                 <div class="carousel-item col-md-4  ">
-                    <div class="panel panel-default">
-                      <div class="panel-thumbnail">
-                        <a href="#" title="image 2" class="thumb">
-                         <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
-                        </a>
-                      </div>
-                      
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+    <div class="anunci col py-6 px-md-4">
+
+    <p class="anunciar float-sm-left">ANUNCIANTE, CONHEÇA NOSSOS PLANOS:
+      Quando o assunto é imóvel,não se preocupe pois a Alugue MG tem a solução tem todas as soluções.
+      Dica: ao anunciar um imóvel, contar com o apoio de corretores e imobiliárias lhe garante segurança e praticidade em toda a jornada de aluguel e venda. A Aluga MG está sempre disponível para promover essa conexão e gerar negócios mais rentáveis e seguros para ambos os lados.
+    </p>
+    <button type="button float-sm-left ml-3" class="botao btn btn-outline-primary">Anuncie o seu Imovel</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Consulte alguns imoveis</h2>
+    <br>
+    <br> 
+    <br>
+      <main class="main ">   
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators ">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <center><img class="d-block w-30" src="foto1.jpg" alt="First slide"></center>
+          </div>
+          <div class="carousel-item">
+            <center><img class="d-block w-30" src="foto2.jpg" alt="Second slide"></center>
+          </div>
+          <div class="carousel-item">
+            <center><img class="d-block w-30" src="foto3.jpg" alt="Third slide"></center>
+          </div>
         </div>
-    </div>                   
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+  <div class="row">
+    <div class="card">
+      <img src="foto4.jpg" alt="foto" style="width:100%">
+      <div class="container">
+        <h4><b>Perdizes - São Paulo</b></h4> 
+        <p>Recantos Monte Belo 256m²</p> 
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="card">
+      <img src="foto5.jpg" alt="foto" style="width:100%">
+      <div class="container">
+        <h4><b>Vila Isabel - Curitiba</b></h4> 
+        <p>Condominio Lago Sul 272m²</p> 
+      </div>
+    </div>
+  </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class = "footer-falso">
-        <h4 class="h41">AlugueMG / AlugueMG Agencia de Viagens LTDA. Rua Canaã,
-        </h4>
-        <br>
-        <h4 class="h42">
+        <center><div class= quadradoenfeite>.</div></center>
+      
+        <p class="h41">AlugueMG / AlugueMG Agencia de Viagens LTDA. Rua Canaã,
+        </p>
+        <p class="h42">
             1923 - Sala 01 - Mezanino - Chácara Por do Sol - Uberlândia – MG - CEP: 04715-103 CNPJ 13.943.123/0001-50
-        </h4>
+        </p>
     </div>
     <footer>
       <div class = "voltar">
